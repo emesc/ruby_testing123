@@ -1,4 +1,4 @@
-require "01/compress.rb"
+require "01/compress"
 
 describe "String Compression" do
 

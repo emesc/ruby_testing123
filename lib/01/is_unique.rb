@@ -10,10 +10,3 @@ def is_unique?(string)
 
   return true
 end
-
-puts is_unique?("false")
-puts is_unique?("added")
-puts is_unique?("array")
-puts is_unique?("compute")
-puts is_unique?("cuppa")
-puts is_unique?("drinks")
