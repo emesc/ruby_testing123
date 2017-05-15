@@ -10,7 +10,7 @@ describe "A string" do
     end
 
     it "is agnostic to cases" do
-      expect(is_permutation?("Iceman", "cinema")).to eq true
+      expect(is_permutation?("Iceman", "cinema")).to eq false # case sensitive, use is_permutation1 otherwise
     end
   end
 
